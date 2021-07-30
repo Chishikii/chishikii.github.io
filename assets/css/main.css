@@ -2216,13 +2216,16 @@ input, select, textarea {
 	}
 
 		ul.labeled-icons li {
+			display:inline;
 			line-height: 1.75em;
 			margin: 1.5em 0 0 0;
+			margin-right: 2.25em;
 			padding-left: 2.25em;
 			position: relative;
 		}
 
 			ul.labeled-icons li:first-child {
+				float: left;
 				margin-top: 0;
 			}
 
@@ -3166,10 +3169,12 @@ input, select, textarea {
 		/* List */
 
 			ul.labeled-icons li {
+				display: inline;
 				padding-left: 2em;
 			}
 
 				ul.labeled-icons li h3 {
+					display: block;
 					line-height: 1.75em;
 				}
 
